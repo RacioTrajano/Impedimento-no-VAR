@@ -93,6 +93,8 @@ printf("A: ");
 if (impedi_A == 0){
   printf("sem impedimentos");
 }
+
+// imprime apenas os elementos do array dos impedidios que forem diferentes de 0
 else {for (int i= 0; i<5; i++){
     if (impedidos_A[i] != 0){
       printf("%d ", impedidos_A[i] + 2);
